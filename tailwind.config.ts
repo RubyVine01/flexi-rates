@@ -10,12 +10,28 @@ const config: Config = {
     extend: {
       colors: {
         background: "#F5F7F7",
-        mainText: "#2D3242;",
+        mainText: "#2D3242",
+        secondaryText: "#818798",
+        link: "#2D97F9",
+        icon: "#2F4353",
+        blueAccent: "#01B9C5",
+        redAccent: "#FD4D35",
+        greyAccent: "#95979F"
       },
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
-        pt: ["PT Sans", "sans-serif"],
-        bebas: ["Bebas Neue", "cursive"], // Fallback cursive для Bebas Neue
+        ptRootUI: ["PT Root UI", "sans-serif"],
+        bebas: ["Bebas Neue Cyrillic", "sans-serif"], 
+      },
+      fontSize: {
+        "40px": "40px",
+      },
+      lineHeight: {
+        "18px": "18px",
+        "44px": "44px", 
+      },
+      borderRadius: {
+        "60px": "60px", 
       },
     },
   },

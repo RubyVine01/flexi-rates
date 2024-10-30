@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "PTRootUIWebBold";
+  src: url("../../public/fonts/PT-Root-UI/pt-root-ui_vf.woff2") format("woff2"),
+    url("../../public/fonts/PT-Root-UI/pt-root-ui_vf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../../public/fonts/PT-Root-UI/pt-root-ui_bold.woff2") format("woff2"),
+    url("../../public/fonts/PT-Root-UI/pt-root-ui_bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTRootUIWebMedium';
+	src: 
+		url('../../public/fonts/PT-Root-UI/PT-Root-UI_Medium.woff2') format('woff2'),
+		url('../../public/fonts/PT-Root-UI/PT-Root-UI_Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Cyrillic';
+
+  src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
+      url('../../public/fonts/BebasNeueCyrillic/BebasNeueCyrillic.woff2') format('woff2'),
+      url('../../public/fonts/BebasNeueCyrillic/BebasNeueCyrillic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 * {
   margin: 0;
   padding: 0;
