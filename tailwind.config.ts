@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#F5F7F7",
+        mainText: "#2D3242;",
+      },
+      fontFamily: {
+        rubik: ["Rubik", "sans-serif"],
+        pt: ["PT Sans", "sans-serif"],
+        bebas: ["Bebas Neue", "cursive"], // Fallback cursive для Bebas Neue
       },
     },
   },
